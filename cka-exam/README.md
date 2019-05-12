@@ -11,16 +11,16 @@ Try the following exercises interactively:
 Note - there are no answers here on purpose. You should be able to do these yourself using the minimal docs that you are allowed to use during the test. At a minimum this should train you on where to look for this info during the test, without notes.
 
 1. Create a node that has a SSD and label it as such. 
-2. Create a pod that is only scheduled on SSD nodes.
-3. Create 2 pod definitions: the second pod should be scheduled to run anywhere the first pod is running - 2nd pod runs alongside the first pod.
-4 .Create a deployment running nginx version 1.12.2 that will run in 2 pods
+1. Create a pod that is only scheduled on SSD nodes.
+1. Create 2 pod definitions: the second pod should be scheduled to run anywhere the first pod is running second pod runs alongside the first pod.
+1 .Create a deployment running nginx version 1.12.2 that will run in 2 pods
 	a. Scale this to 4 pods.
 	b. Scale it back to 2 pods.
 	c. Upgrade this to 1.13.8
 	d. Check the status of the upgrade
 	e. How do you do this in a way that you can see history of what happened?
 	f. Undo the upgrade
-5. Create a service that uses a scratch disk.
+1. Create a service that uses a scratch disk.
 	a. Change the service to mount a disk from the host.
 	b. Change the service to mount a persistent volume.
 6. Create a pod that has a liveness check
