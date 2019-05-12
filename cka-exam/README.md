@@ -13,7 +13,7 @@ Note - there are no answers here on purpose. You should be able to do these your
 1. Create a node that has a SSD and label it as such. 
 1. Create a pod that is only scheduled on SSD nodes.
 1. Create 2 pod definitions: the second pod should be scheduled to run anywhere the first pod is running second pod runs alongside the first pod.
-1 .Create a deployment running nginx version 1.12.2 that will run in 2 pods
+1. Create a deployment running nginx version 1.12.2 that will run in 2 pods
      a. Scale this to 4 pods.
      b. Scale it back to 2 pods.
      c. Upgrade this to 1.13.8
